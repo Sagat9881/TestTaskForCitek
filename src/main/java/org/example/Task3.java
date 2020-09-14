@@ -5,16 +5,14 @@ public class Task3 {
     public static void main(String[] args) {
 
         int a = 21321230;
-        Task3.lastBitRevers(a);
+
+        System.out.println(Integer.toBinaryString(a));
+
+       int c = Task3.lastBitRevers(a);
+
+        System.out.println(Integer.toBinaryString(c));
     }
 
-    static void lastBitRevers(int a) {
-
-        if (!(a % 10 == 0)) System.out.println("Введите корректное число");
-
-        int b = a + 1;
-
-         a = b | 1;
-        System.out.println(a);
-    }
+    static int lastBitRevers(int x) {
+     return   x = ( x >> 1) << 1 | 1; }
 }
