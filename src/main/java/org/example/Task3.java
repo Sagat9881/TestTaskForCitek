@@ -6,11 +6,7 @@ public class Task3 {
 
         int a = 21321230;
 
-        System.out.println(Integer.toBinaryString(a));
-
-       int c = Task3.lastBitRevers(a);
-
-        System.out.println(Integer.toBinaryString(c));
+        System.out.println(Integer.toBinaryString(Task3.lastBitRevers(a)));
     }
 
     static int lastBitRevers(int x) {
