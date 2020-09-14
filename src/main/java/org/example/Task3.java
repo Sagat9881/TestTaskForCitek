@@ -14,7 +14,7 @@ public class Task3 {
 
         int b = a + 1;
 
-        int c = b | a;
-        System.out.println(c);
+         a = b | 1;
+        System.out.println(a);
     }
 }

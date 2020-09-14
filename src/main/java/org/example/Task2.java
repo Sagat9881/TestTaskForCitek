@@ -8,7 +8,7 @@ public class Task2 {
 
     public static void main(String[] args) {
 
-        String expression = "12[3б,][б  ([)] ]{}()45";
+        String expression = "12[3б,][б  () ]{}()45";
 
         System.out.println((isBalanced(expression)) ? "YES" : "NO");
     }
